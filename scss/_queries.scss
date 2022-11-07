@@ -1,0 +1,30 @@
+@media (max-width:768px) {
+    #sobre-nosotros {
+        width: 90%;
+    }
+    .servicio-fila { 
+        width:100% !important;
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
